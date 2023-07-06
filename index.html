@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+        
+       .fa{
+        font-size: 34px;
+        color:white;
+       }
+       .name{
+        color:orange;
+       }
+       .container{
+        font-family: 'Baloo 2', cursive;
+       }
+       .menu{
+        display: flex;
+        flex-direction: column;
+             gap:20px;
+               font-family: 'Baloo 2', cursive;
+        background-color: #180481;
+
+        
+       }
+      
+       .container{
+        display: flex;  
+        font-family: 'Baloo 2', cursive;   
+        /* flex-wrap: wrap;    */
+       }
+       .column{
+        color:white;
+        background-color: orange;
+              /* gap:50px; */
+        font-family: 'Baloo 2', cursive;
+       }
+       .column h3{
+        text-align: center;
+        /* margin-bottom: 20px; */
+       }
+       .column h1{
+        text-align: right;
+        margin-right: 10px;
+       }
+       .contactus button{
+        background-color: #180481;
+        color:white;
+        border:none;
+        width:150px;
+        padding: 10px;
+       }
+       .readmore button{
+        background-color: orange;
+        border:none;
+        color:white;
+        width:150px;
+        padding: 10px;
+       }
+       .button{
+        display: flex;
+    /* margin-top: 20px; */
+    /* text-align: end; */
+
+       }
+       .image img{
+        /* width:620px; */
+        /* height:1105px; */
+        height:720px;
+     
+       }
+       .arrow{
+        display: flex;
+        color:white;
+        gap:20px;
+              }
+       .arrow p{
+        font-size: 28px;
+        background-color: orange;
+        height:30px;
+        padding: 5px;
+       }
+       .bottom{
+        display: flex;
+        justify-content: space-between;
+       color:white;
+       /* flex-wrap: wrap; */
+    /* flex: auto; */
+    gap:20px;
+       }
+       
+       .bottom img{
+        width:50px;
+        height:50px;
+       }
+       
+       .left button{
+        background-color: orange;
+        color:white;
+        padding: 10px;
+        border:none;
+       }
+       
+       .content{
+        display: flex;
+       font-family: 'Baloo 2', cursive;
+        gap:50px;
+        background-color: #180481;
+        color:white;
+        flex-wrap: wrap;
+       }
+   .content .right img{
+/* flex-basis:400px; */
+height:600px;
+/* flex-shrink: 5; */
+       }
+      
+       .card img{
+        width:80px;
+        height:80px;
+       }
+       .card p{
+        color:black;
+       }
+       .cardgroup{
+        display: flex;
+               }
+       .card button{
+        background-color: #180481;
+        color:white;
+        padding: 10px;
+        border:none;
+       }
+       .sign{
+        display: flex;
+        justify-content: space-around;
+        color:orange;
+       }
+       .fa{
+        color:orange;
+       }
+       .publish {
+     
+        margin-top: 20px;
+        display: flex;
+        font-family: 'Baloo 2', cursive;
+       }
+       .publish .left{
+        box-shadow: 0 0 4px rgba(0,0,0,0.4);
+        padding:10px;
+        position: relative;
+            width:500px;
+       }
+      
+       .publish img{
+        width:500px;
+        height:350px;
+      position:absolute;
+      margin-top: 20px;
+      margin-left: -20px;
+       }
+       .publish .left h1{
+        text-align: center;
+       }
+     
+.button button{
+    background-color: #180481;
+    color:white;
+        border:none;
+        padding: 10px;
+}
+    #clientsroom{
+        background-image: url(teach.jpeg);
+        background-position: center center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+    
+    }
+      .clientsdetail{
+        background-color: rgba(9, 4, 81, 0.8);
+        height:100%;
+        width: 100%;
+       background-attachment: fixed;
+       /* position: relative; */
+      }
+      .clients{
+        /* position: center; */
+        color:white;
+        text-align: center;
+        /* justify-content: center; */
+        /* align-items: center; */
+      }
+      .client{
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Baloo 2', cursive;
+      }
+      .cardgroup{
+        display: flex;
+        /* justify-content: center;  */
+        /* gap:20px; */
+        flex-wrap: nowrap;
+      }
+      .card {
+       background-color: white;
+       /* width:400px; */
+       padding: 10px;
+       font-family: 'Baloo 2', cursive;
+
+      } 
+      .card .name{
+        color:black
+      }
+      .card .info{
+        color:orange;
+      }
+      .photo img{
+        width:100px;
+        height:100px;
+        border-radius: 50%;
+      }
+      .clients h1{
+        text-align: center;
+        /* margin-top: 20px; */
+      }
+      .contact .details{
+        display:flex ;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        /* gap:50px; */
+      }
+      .contact input{
+        background-color: wheat;
+        color:white;
+        width:300px;
+        height:34px;
+        border:none;
+      }
+      .contact button{
+        background-color: orange;
+        width:80px;
+      }
+      .contact{
+        display: flex;
+        /* justify-content: center; */
+        /* flex-wrap: wrap; */
+        font-family: 'Baloo 2', cursive;
+      }
+      .contact  .right img{
+        width:600px;
+        height:300px;
+        margin-top: 50px;
+      }
+      .point{
+        display: flex;
+        gap:10px;
+        font-family: 'Baloo 2', cursive;
+        
+      }
+      .logo{
+        display: flex;
+        gap:20px;
+      }
+      
+      .conclusion{
+        background-color: #180481;
+        font-family: 'Baloo 2', cursive;
+        /* color:white; */
+      }
+      .conclusion .card{
+        background-color: #180481;
+        color:white;
+      }
+      .conclusion .card p{
+        color:white;
+      }
+      .note{
+        color:white;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="bars">
+                  <i class="fa fa-bars"></i>
+                </div>
+         <div class="search">
+            <i class="fa fa-map-pin"></i>
+         </div>
+         <div class="user">
+            <i class="fa fa-user"></i>
+         </div>
+<div class="name">
+    <p>S</p>
+    <p>E</p>
+    <p>O</p>
+    <p>M</p>
+    <p>A</p>
+    <p>R</p>
+    <p>K</p>
+    <p>E</p>
+    <p>T</p>
+    <p>I</p>
+    <p>N</p>
+    <p>G</p>
+</div>
+        </div>
+        <div class="column">
+            <h3>SEOMARK</h3>
+            <h1>We <BR> Can <br>
+            Grow</BR> Your <br>
+        Business</h1>
+        <div class="button">
+            <div class="contactus">       <button>CONTACT US</button></div>
+       <div class="readmore"> <button>READ MORE</button></div> 
+        </div>
+        </div>
+        <div class="image">
+            <img src="working.jpeg" alt="">
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="arrow">
+            <p> < </p> <p> > </p>
+        </div>
+        <div class="card">
+            <img src="on.jpeg" alt="">
+            <p><strong>RESEARCH PROJECT</strong></p>
+        </div>
+        <div class="card">
+            <img src="two.jpeg" alt="">
+            <p><strong>FIND IDEAS</strong></p>
+        </div>
+        <div class="card">
+            <img src="three.jpeg" alt="">
+            <p><strong> START OPTIMIZE</strong></p>
+        </div>
+        <div class="card">
+            <img src="four.jpeg" alt="">
+            <p><strong>REACH TARGET</strong></p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <h1>LET US HELP <br> YOU GET MORE</h1>
+            <p>using 'Content here, content here', making it look like readable English. <br>Many desktop publishing packages and web page editors now use <br>Lorem Ipsum as their default model text, and a searchusing 'content <br> here, content here
+            ', making it look like readable English. Many desktop <br>publishing packages and web page editors now use Lorem Ipsum as <br>
+        their default model text, and a search</p>
+        <button>
+            See Videos
+        </button>
+        </div>
+        <div class="right">
+            <img src="pause.jpeg" alt="">
+        </div>
+    </div>
+    <div class="solution">
+        <h1>What We do</h1>
+        <p>'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use</p>
+        <div class="cardgroup">
+            <div class="card">
+                <img src="socialmarketing.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatibus quibusdam! Nisi cupiditate ipsa consectetur vitae aliquid id! Consectetur, delectus.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="card">
+                <img src="contentmarketing.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatibus quibusdam! Nisi cupiditate ipsa consectetur vitae aliquid id! Consectetur, delectus.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="card">
+                <img src="dataanalysis.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatibus quibusdam! Nisi cupiditate ipsa consectetur vitae aliquid id! Consectetur, delectus.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="card">
+                <img src="digitalmarketing.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatibus quibusdam! Nisi cupiditate ipsa consectetur vitae aliquid id! Consectetur, delectus.</p>
+                <button>READ MORE</button>
+            </div>
+        </div>
+    </div>
+    <div class="publish">
+        <div class="left">
+            <h1>Publishing packages Web page</h1>
+            <div class="sign">
+                <div class="like">
+                       <i class="fa fa-heart"></i>
+                       <p>Like</p>
+                </div>
+             <div class="comment">
+                <i class="fa fa-comment-o"></i>
+                <p>Comment</p>
+             </div>
+             <div class="share">
+                <i class="fa fa-share-alt"></i>
+                <p>Share</p>
+             </div>
+              
+            </div>
+            <p>College in Virginia, looked up one of the more obscure Latin <br> word, consectetur, from a Lorem Ipsum passage, and going <br>
+            through the cities of the word in classical literature, discovered the <br>undoubtable College in Virginia, ooked up one of the more <br>obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, <br> and going through the cities of the word in classical literature, <br>
+    discovered the undoubtable</p>
+        </div>
+        <div class="right">
+            <img src="teach.jpeg" alt="">
+        </div>
+       
+    </div>
+    <div class="button">
+     <button> READ MORE</button>  
+    </div>
+    <div id="clientsroom">
+<div class="clientsdetail">
+<div class="clients">
+    <h1>What Says Our Clients</h1>
+    <div class="cardgroup">
+        <div class="card">
+            <div class="client">
+                <div class="photo"><img src="men2.jpeg" alt=""></div>
+                <div class="detail">
+                    <div class="name">Thomas mor</div>
+<div class="info">Hidden</div>
+                </div>
+                </div>
+                <p> If you are going to use a passage of Lorem Ipsum,you need <br>to be sure th ere isn't anything embarrassing hidden in the <br>middle of text. All the Lorem Ipsum generators on the <br>Internet tend to repeat predefined</p>
+            </div>
+            <div class="card">
+            <div class="client">
+                <div class="photo"><img src="men1.jpg" alt=""></div>
+                <div class="detail">
+                    <div class="name">Jims thomas</div>
+<div class="info">Hidden in the</div>
+                </div>
+                </div>
+              <p> If you are going to use a passage of Lorem Ipsum,you need <br>to be sure th ere isn't anything embarrassing hidden in the <br>middle of text. All the Lorem Ipsum generators on the <br>Internet tend to repeat predefined</p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</div>
+<div class="contact">
+    <div class="left">
+        <h1>Contact Now For Work</h1>
+        <div class="details">
+            <form action="https://formsubmit.co/nandini.agarwal9412@gmail.com" method="post">
+        <input type="text" placeholder="Full Name" name="Name">
+        <input type="email" placeholder="Email" name="Email">
+        <input type="number" placeholder="Phone number" name="number">
+        <input type="text" placeholder="Message" name="message">
+
+    </div>
+    <div class="button">
+        <button>Send</button>
+    </div>
+    </div>
+    <div class="right">
+        <img src="location.jpeg" alt="">
+    </div>
+</div>
+<div class="conclusion">
+    <div class="cardgroup">
+        <div class="card">
+            <h2>Address</h2>
+            <div class="point">
+                <i class="fa fa-map-marker"></i>
+                <p>Location</p>
+            </div>
+            <div class="point">
+                <i class="fa fa-phone"></i>
+                <p>Call +01 134567890</p>
+            </div>
+            <div class="point">
+                <i class="fa fa-envelope"></i>
+                <p>demo@gmail.com</p>
+            </div>
+            <div class="logo">
+                <div class="twitter"> ​ <i class="fa fa-twitter"></i></div>
+                <div class="facebook"><i class="fa fa-facebook-f"></i></div>
+                ​ <div class="instagram"><i class="fa fa-instagram"></i></div>
+                <div class="linkedin"> <i class="fa fa-linkedin-square"></i></div>
+  
+              </div>
+        </div>
+        <div class="card">
+            <h2>Links</h2>
+            <div class="point">
+                ​ <i class="fa fa-arrow-right"></i>
+                <p>Home</p>
+            </div>
+            <div class="point">
+                ​ <i class="fa fa-arrow-right"></i>
+                <p>About</p>
+            </div>
+            <div class="point">
+                ​ <i class="fa fa-arrow-right"></i>
+                <p>Services</p>
+            </div>
+            <div class="point">
+                ​ <i class="fa fa-arrow-right"></i>
+                <p>Testimonial</p>
+            </div>
+            <div class="point">
+                ​ <i class="fa fa-arrow-right"></i>
+                <p>Latest News</p>
+            </div>
+            <div class="point">
+                ​ <i class="fa fa-arrow-right"></i>
+                <p>Contact us</p>
+         
+        </div>
+    </div>
+        <div class="card">
+            <h2>Info</h2>
+            <p>necessary, making this the first true <br>generator on the Internet . It uses a <br>dictionary of over 200 Latin words, <br>
+            combined with a handful</p>
+    
+    </div>
+    <div class="card">
+        <h2>Subscribe</h2>
+        <p>Enter email</p>
+        <hr>
+        <button>Subscribe</button>
+    </div>
+</div>
+<hr>
+<div class="note"><p>Ⓒ2023 All Rights Reserved Design by Free Html Templates</p></div>
+
+    <!-- </div>
+
+    </div> -->
+</body>
+</html>
